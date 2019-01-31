@@ -6,37 +6,21 @@
 ### Author: Student/Group Name
 
 ### Links and Resources
-* [repo](http://xyz.com)
-* [travis](http://xyz.com)
-* [back-end](http://xyz.com)
-* [front-end](http://xyz.com)
+* [repo](https://github.com/hcherewaty/28-props-and-state)
+* [Code Sandbox Props](https://codesandbox.io/s/zqw8y1or34)
+* [Code Sandbox Props Refactored](https://codesandbox.io/s/3q0mpj5vmq)
+* [Code Sandbox Internal State](https://codesandbox.io/s/kkrrv18jw5)
+* [Code Sandbox Internal State Refactored](https://codesandbox.io/s/xlpl8j4lqz)
+* [Code Sandbox External State](https://codesandbox.io/s/88qo313y1l)
+* [Code Sandbox External State Refactored](https://codesandbox.io/s/xv2kmvjnnz)
 
 ### Modules
-#### `modulename.js`
+#### `index.js` for each Sandbox
+
 ##### Exported Values and Methods
-
-###### `foo(thing) -> string`
-Usage Notes or examples
-
-###### `bar(array) -> array`
-Usage Notes or examples
-
-### Setup
-#### `.env` requirements
-* `PORT` - Port Number
-* `MONGODB_URI` - URL to the running mongo instance/db
+* Connection to sandbox app upon visiting link established in Links and Resources.
+* Content is rendered onto `index.html` by way of import of `app.js` onto `index.js`.
+* Components defined in `components` directory.
 
 #### Running the app
-* `npm start`
-* Endpoint: `/foo/bar/`
-  * Returns a JSON object with abc in it.
-* Endpoint: `/bing/zing/`
-  * Returns a JSON object with xyz in it.
-
-#### Tests
-* How do you run tests?
-* What assertions were made?
-* What assertions need to be / should be made?
-
-#### UML
-Link to an image of the UML for your application and response to events
+* The react apps will start and load once the sandbox links are visited.
